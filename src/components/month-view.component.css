@@ -1,0 +1,11 @@
+.month-view {
+    display: table;
+    width: 100%
+}
+    .month-view__days {
+        display: table-row;
+    }
+        .month-view__day,
+        .month-view__day {
+            display: table-cell;
+        }

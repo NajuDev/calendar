@@ -1,0 +1,17 @@
+.day-square {
+    display: table-cell;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+}
+    .day-square--empty {
+        background-color: #CDCDCD;
+    }
+
+    .day-square__date {
+        margin: 0;
+        font-size: 11px;
+        text-align: left;
+    }
